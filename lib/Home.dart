@@ -80,6 +80,7 @@ class _HomeState extends State<Home> {
               );
             });
           },
+
               child: Text(
                 "Alert Dialog",
                 style: TextStyle(fontSize: 25),
