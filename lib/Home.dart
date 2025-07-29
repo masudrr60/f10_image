@@ -15,7 +15,9 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Image"),
+        title: Text("Snackbar, Bottom Sheet, Alert Dialog",
+          style: TextStyle(fontSize:18.sp),
+        ),
         backgroundColor: Colors.red,
       ),
       body: Column(
